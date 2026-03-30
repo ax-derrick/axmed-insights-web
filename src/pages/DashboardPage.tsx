@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Row, Col, Typography, Button, DatePicker, Space } from 'antd';
 import { ReloadOutlined, FileTextOutlined, CheckSquareOutlined, ClockCircleOutlined, WarningOutlined } from '@ant-design/icons';
-import { StatCard, SentimentGauge, UrgencyChart, ResolutionRate, ResolutionTime, ActivityFeed, PainPointsList, SectionHeader, NeedsAttention, QuickViewDrawer, MetricRow, MetricSection } from '../components/Dashboard';
+import { StatCard, SentimentGauge, UrgencyChart, ResolutionRate, ResolutionTime, PainPointsList, SectionHeader, NeedsAttention, QuickViewDrawer, MetricRow, MetricSection } from '../components/Dashboard';
 import type { NeedsAttentionItem } from '../components/Dashboard';
 import { Progress } from 'antd';
 import { getDashboardSummary, getTopPainPoints, getRecentActivity, getUrgencyDistribution, getResolutionStats, getResolutionTime, type DateRange } from '../services/n8n';
